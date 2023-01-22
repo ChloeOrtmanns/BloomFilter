@@ -6,3 +6,5 @@ You can change the size of the "bitarray" to your liking, same with the elements
 I used catch to make a simple testcase for some usernames. If you run it, you'll see there will be two fails, which are two false positives.
 
 The includes hold the headers, the src hold de .cpp files, test holds the test cases with catch
+
+I only used a specialization for std::string, but if you change the hash function other specializations will work too
